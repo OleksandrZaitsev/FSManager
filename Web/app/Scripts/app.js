@@ -1,0 +1,1 @@
+﻿var fsManagerApp = angular.module("fsManagerApp", []);

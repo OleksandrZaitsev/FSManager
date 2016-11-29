@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{9FF8FDA3-3879-46FE-BA44-49D7ACD268DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{642E02F4-BF66-4B92-A549-3890D8CDDB98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF8FDA3-3879-46FE-BA44-49D7ACD268DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF8FDA3-3879-46FE-BA44-49D7ACD268DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF8FDA3-3879-46FE-BA44-49D7ACD268DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF8FDA3-3879-46FE-BA44-49D7ACD268DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642E02F4-BF66-4B92-A549-3890D8CDDB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642E02F4-BF66-4B92-A549-3890D8CDDB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642E02F4-BF66-4B92-A549-3890D8CDDB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642E02F4-BF66-4B92-A549-3890D8CDDB98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+﻿#sizestat th {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+#sizestat td {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+#current {
+    height: 40px;
+    color: #777777;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#header, #current span {
+    color: #555555;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#filebrowser {
+    border: solid 1px #e9e9e9;
+}
+
+#filebrowser .list-group-item {
+    padding: 4px 15px;
+    border: none;
+}
+
+#back{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.currentdir{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+@keyframes spin {
+  100% {
+   transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  width: 25px;
+  height: 25px;
+  border: 6px solid #000;
+  border-left-color: #333;
+  border-right-color: transparent;
+  border-bottom-color: #555;
+  border-radius: 100%;
+  animation: spin 600ms infinite linear;
+}

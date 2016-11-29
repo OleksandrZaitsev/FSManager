@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="page-header" id="header">
+    File size statistic
+</div>
+<div id="sizestat" ng-controller="FSManagerController">
+    @Html.Partial("_SizeStatistics")
+    @Html.Partial("_Breadcrumb")
+    @Html.Partial("_FSItemList")
+</div>
+<br />
+@Html.Partial("_ModalErrorWindow")

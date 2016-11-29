@@ -1,0 +1,13 @@
+﻿
+<div id="filebrowser">
+    <ul class="list-group">
+        <li class="list-group-item" ng-if="rootLevel == 0" id="back">&nbsp;</li>
+        <li class="list-group-item" ng-if="rootLevel > 0" id="back"><a href="#!" ng-click="setCurrentDir('..')">..</a></li>
+        <li class="list-group-item" ng-repeat="fsItem in DirInfo.FSItems" ng-if="fsItem.IsDir == true">
+            <a href="#!" ng-click="setCurrentDir(fsItem.Name)"><img src="~/Content/Pict/folder.ico" width="20" height="20" style="margin-bottom:6px" />&nbsp;{{fsItem.Name}}</a>
+        </li>
+        <li class="list-group-item" ng-repeat="fsItem in DirInfo.FSItems" ng-if="fsItem.IsDir == false">
+            <img src="~/Content/Pict/file.ico" width="20" height="20" style="margin-bottom:6px" />&nbsp;{{fsItem.Name}}
+        </li>
+    </ul>
+</div>
